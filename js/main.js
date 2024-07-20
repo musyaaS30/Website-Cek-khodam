@@ -26,7 +26,11 @@ function cekKhodam(event){
                 'Roro jonggrang',
                 'Macan putih',
                 'Banci hijrah',
-                'Asep icikiwir'
+                'Asep icikiwir',
+                'Stasiun lempuyangan',
+                'Garpu somay',
+                'KING EISTEIN',
+                'Kaisar jepang'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);

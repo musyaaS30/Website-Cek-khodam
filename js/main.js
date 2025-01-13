@@ -30,7 +30,8 @@ function cekKhodam(event){
                 'Stasiun lempuyangan',
                 'Garpu somay',
                 'KING EISTEIN',
-                'Kaisar jepang'
+                'Kaisar jepang',
+                'Ayam cemuani'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);

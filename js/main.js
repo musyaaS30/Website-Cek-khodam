@@ -21,17 +21,7 @@ function cekKhodam(event){
                 'Wewe gombel',
                 'Panda ngemis',
                 'Ambatron',
-                'Ambaruwo',
-                'Cewe chindo',
-                'Roro jonggrang',
-                'Macan putih',
-                'Banci hijrah',
-                'Asep icikiwir',
-                'Stasiun lempuyangan',
-                'Garpu somay',
-                'KING EISTEIN',
-                'Kaisar jepang',
-                'Ayam cemuani'
+                'Ambaruwo'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);
